@@ -11,7 +11,7 @@ VERSIONS := $(VERSIONS:/=)
 TARGET_VERSION ?= *
 TARGET_DISTRO ?= *
 TARGET_KERNEL ?= *
-S3_DRIVERS_BUCKET ?= "falco-distribution"
+S3_DRIVERS_BUCKET ?= "test-falco-kernel"
 S3_DRIVERS_KEY_PREFIX ?= "driver"
 SKIP_EXISTING ?= true
 
